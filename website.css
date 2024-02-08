@@ -1,0 +1,188 @@
+
+nav img{
+   
+    height: 50px;
+    margin-top: 20px;
+    
+   
+}
+.head{
+    background-image: 
+url(https://media.licdn.com/dms/image/D5612AQG0lt1ZIh6kcQ/article-cover_image-shrink_720_1280/0/1687857795897?e=2147483647&v=beta&t=-LL4PperrokT4hPGl2CXkiKLFZmiYffnpjEvawOhHC0); 
+background-size: cover;
+    height: 100vh;
+    margin-top: -30px;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+li{
+    
+    font-size: 20px;
+    padding: 15px; 
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+a:active{
+    color: white;
+}
+i{
+    margin-top: 15px;
+    font-size: 25px;
+}
+input{
+    margin-top: 30px;
+    padding: 10px;
+}
+.icon{
+    margin-left: -150px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+.caption1 h1{
+    text-align: center;
+    
+}
+.card1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 40px 0;
+    
+}
+.card1-head img{
+    width: 300px;
+    height: 300px;
+    
+}
+.card1-head{
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    background-color:white;
+    border-radius: 10px;
+}
+.card1-head h1{
+    text-align: center;
+    color:black; 
+}
+.card2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: bisque;
+
+}
+.card2-1:hover{
+transform: translateY(30px);
+color: white;
+background-color: black;
+
+}
+.card2-1{
+    width: 300px;
+    text-align: center;
+    transition: transform(0.5s);
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px  black;
+
+}
+/* #Planning{
+
+}
+#Informed{
+    box-shadow: 1px 1px 1px black;
+}
+#Pace{
+    box-shadow: 1px 1px 1px  black;
+}
+#Outcomes{
+    box-shadow: 1px 1px 1px 1px black;
+} */
+.card2-1 h2{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.card2-1 img{
+    width:100%;
+    margin-top: 10px;
+}
+.card2-1 p{
+    font-size: 30px;
+    margin-top: -10px;
+}
+.card3{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(185, 255, 228);
+    margin: 50px 0;
+   
+}
+.card3-foote h1{
+    margin-left: 100px;
+    font-size: 40px;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.card3 input{
+    width: 50vw;
+    margin-left: 20px;
+}
+.btn1{
+    padding: 20px;
+    margin: 30px;
+    position: absolute;
+    right: 250px;
+    background-color:blueviolet;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    
+}
+.copy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .copy i{
+     padding: 10px;
+ }
+ .card3-matter{
+    margin-top:10px ;
+    margin-left: 40px;
+ }
+ .card3-matter p{
+    width: 500px;
+    margin-top: 50px;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:black;
+    }
+ .icon1 i{
+    padding: 30px;
+    margin-top: -30px;
+    font-size: 30px;
+ }
+ .card3-matter h1{
+    font-size: 100px;
+ }
